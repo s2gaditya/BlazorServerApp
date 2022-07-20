@@ -2,6 +2,7 @@ namespace BlazorServerApp.Data
 {
     public class WeatherForecast
     {
+        public int Id { get; set; }
         public DateTime Date { get; set; }
 
         public int TemperatureC { get; set; }
@@ -11,5 +12,9 @@ namespace BlazorServerApp.Data
         public string? Summary { get; set; }
         
         public DateTime UpdateDate { get; set; }
+
+        public string? Area { get; set; }
+
+        public string? PinCode { get; set; }
     }
 }
