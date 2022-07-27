@@ -16,10 +16,5 @@ namespace BlazorServerApp.Data
                 Summary = Summaries[Random.Shared.Next(Summaries.Length)]
             }).ToArray());
         }
-
-        public void Test()
-        {
-
-        }
     }
 }
