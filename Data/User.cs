@@ -14,6 +14,6 @@ namespace BlazorServerApp.Data
 
         public string? PinCode { get; set; }
 
-        public string? PinCode1 { get; set; }
+        public string? Test { get; set; }
     }
 }
