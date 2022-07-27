@@ -13,5 +13,7 @@ namespace BlazorServerApp.Data
         public string? Area { get; set; }
 
         public string? PinCode { get; set; }
+
+        public string? PinCode1 { get; set; }
     }
 }
